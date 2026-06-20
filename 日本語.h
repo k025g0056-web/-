@@ -5,6 +5,7 @@
 #include<dinput.h>
 #include <cstring>
 #include<stdio.h>
+#include<cstdlib> 
 
 //メイン関数
 #define プログラムの主体 int main()
@@ -149,6 +150,7 @@
 #define 文字入力を受け取る scanf
 #define マイクロソフトコマンド system
 #define プログラム強制終了 exit(0)
+#define コンソールを閉じる system("exit")
 //==================================================================
 
 //ギットコマンド
