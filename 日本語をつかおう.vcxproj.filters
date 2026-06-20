@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="主に走らせる関数を置く.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="日本語">
+      <UniqueIdentifier>{471fe66a-36f4-4f2a-816a-bc50dad61b60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="日本語.h">
+      <Filter>日本語</Filter>
+    </ClInclude>
+    <ClInclude Include="必要な変数をまとめる.h" />
+  </ItemGroup>
+</Project>
