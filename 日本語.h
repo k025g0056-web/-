@@ -131,3 +131,13 @@
 #define コミット(message) system(("git commit -m"+std::string(message)).c_str())
 #define ステージコミット(message) system(("git commit -am"+std::string(message)).c_str())
 #define プッシュ system("git push")
+#define コミットプッシュ commitPush()
+
+
+//
+//============================================================
+
+void commitPush() {
+	ステージコミット("変更を加えた")句点
+		プッシュ 句点
+}
