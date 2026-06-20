@@ -118,6 +118,16 @@
 #define 左シフトを押している key[DIK_LSHIFT]
 #define スペースを押している key[DIK_SPACE]
 #define 右コントロールを押している key[DIK_RCONTROL]
+#define 左コントロールを押している key[DIK_LCONTROL]
 
 #define コンソールに文字を表示 printf
 #define 文字入力を受け取る scanf
+#define マイクロソフトコマンド system
+#define タグを削除する(name) system(("git tag -d " + std::string(name)).c_str())
+#define Webからもタグを削除する(name) system(("git push origin --delete " + std::string(name)).c_str())
+#define 新しいリポジトリを作る system("git init")
+#define リポジトリのクローン(URL) system(("git clone"+std::string(URL)).c_str())
+#define 状態の確認 system("git status")
+#define コミット(message) system(("git commit -m"+std::string(message)).c_str())
+#define ステージコミット(message) system(("git commit -am"+std::string(message)).c_str())
+#define プッシュ system("git push")
