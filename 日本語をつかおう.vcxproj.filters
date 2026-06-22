@@ -13,8 +13,12 @@
       <Filter>日本語</Filter>
     </ClInclude>
     <ClInclude Include="必要な変数をまとめる.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Japan Studio.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
   </ItemGroup>
 </Project>

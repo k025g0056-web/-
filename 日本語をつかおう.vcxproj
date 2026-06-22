@@ -126,11 +126,15 @@
     <ClCompile Include="主に走らせる関数を置く.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="必要な変数をまとめる.h" />
     <ClInclude Include="日本語.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Japan Studio.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
