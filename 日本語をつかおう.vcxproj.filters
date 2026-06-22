@@ -7,18 +7,29 @@
     <Filter Include="日本語">
       <UniqueIdentifier>{471fe66a-36f4-4f2a-816a-bc50dad61b60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="リソース">
+      <UniqueIdentifier>{a1b67ba4-6214-45c3-8d6a-bdf2cee3fb5f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="日本語.h">
       <Filter>日本語</Filter>
     </ClInclude>
-    <ClInclude Include="必要な変数をまとめる.h" />
-    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource.h">
+      <Filter>リソース</Filter>
+    </ClInclude>
+    <ClInclude Include="必要な変数をまとめる.h">
+      <Filter>日本語</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Japan Studio.ico" />
+    <Image Include="Japan Studio.ico">
+      <Filter>リソース</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource.rc" />
+    <ResourceCompile Include="Resource.rc">
+      <Filter>リソース</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
