@@ -170,6 +170,7 @@
 #define コミットプッシュ commitPush()
 #define 変更をステージに追加(file) system(("git add"+std::string(file)).c_str()) 
 #define 全ての変更をステージに追加(file) system("git add .") 
+#define アイコンを追加 system("git add \"Japan Studio.ico\"")
 //============================================================================
 
 //ここから必要な関数を書いていくよ
