@@ -14,4 +14,7 @@
     </ClInclude>
     <ClInclude Include="必要な変数をまとめる.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Japan Studio.ico" />
+  </ItemGroup>
 </Project>

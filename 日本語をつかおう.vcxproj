@@ -129,6 +129,9 @@
     <ClInclude Include="必要な変数をまとめる.h" />
     <ClInclude Include="日本語.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Japan Studio.ico" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

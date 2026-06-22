@@ -89,6 +89,7 @@
 #define 余り %
 #define は =
 #define 住所 &
+#define 指示子 *
 //======================================================
 
 //緑文字
@@ -142,6 +143,9 @@
 #define スペースを押している key[DIK_SPACE]
 #define 右コントロールを押している key[DIK_RCONTROL]
 #define 左コントロールを押している key[DIK_LCONTROL]
+#define エンターを押している key[DIK_RETURN]
+#define リターンを押している key[DIK_RETURN]
+#define デリートを押している key[DIK_DELETE]
 //=================================================================
 
 //関数
