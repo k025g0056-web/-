@@ -54,6 +54,8 @@
 #define 自分 this
 #define 仮想 virtual
 #define 上書き override
+#define 中身はない nullptr
+#define 定数式 constexpr
 //===================================================
 
 //数字
